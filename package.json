@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "",
     "server": "",
     "build": "",
@@ -12,8 +12,8 @@
     "client": ""
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Duvan",
+  "license": "",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
@@ -23,3 +23,4 @@
     "nodemon": "^2.0.4"
   }
 }
+
