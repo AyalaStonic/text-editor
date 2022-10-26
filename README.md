@@ -4,9 +4,11 @@ Author: Duvan Ayala Stonic <br>
 
 ## how to Install it
 
-1- npm i
-2- npm run build
-3- npm run start
+To start, Clone it using the "git clone https://github.com/AyalaStonic/text-editor.git" in your terminal and then run the following commands:
+
+- npm i
+- npm run build
+- npm run start
 
 
 ## Contact Me
