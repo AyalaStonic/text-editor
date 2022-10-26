@@ -31,10 +31,7 @@
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   }
-}
-
-
-  },
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AyalaStonic/text-editor.git"
