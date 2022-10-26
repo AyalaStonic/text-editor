@@ -3,26 +3,36 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "start:dev": "cd server && npm run server\" \"cd client && npm run dev\"",
-    "start": "",
-    "server": "",
+    "start:dev": "",
+    "start": "cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd client && npm install",
-    "client": "cd client && npm start",
-    "heroku-prebuild": "npm install --dev"
+    "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "Duvan",
-  "license": "",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "core-js": "^3.26.0",
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "html-webpack-plugin": "^5.5.0",
+    "if-env": "^1.0.4",
+    "mini-css-extract-plugin": "^2.6.0",
+    "path": "^0.12.7",
+    "webpack": "^5.72.0",
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^6.5.3"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
+  }
+}
+
 
   },
   "repository": {
