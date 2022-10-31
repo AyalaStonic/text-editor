@@ -13,6 +13,8 @@ To start, Clone it using the "git clone https://github.com/AyalaStonic/text-edit
 
 You also can check this video and see how it works : [Video](https://youtu.be/DgXda0MNH8k)
 
+Deploy on Heroku : https://texteditora.herokuapp.com
+
 ## Contact Me
 
 Find me on GitHub at AyalaStonic or email me at ayaladuvan876@gmail.com if you have any questions. Thanks you!
